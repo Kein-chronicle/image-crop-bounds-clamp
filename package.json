@@ -1,0 +1,39 @@
+{
+  "name": "image-crop-bounds-clamp",
+  "version": "0.1.1",
+  "description": "Crop-box math for editors: validate bounds, clamp drag movement inside the page, and budget the output pixel size before rendering.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./scripts/crop.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/run.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "image-crop",
+    "geometry",
+    "javascript",
+    "esm",
+    "pdf",
+    "canvas",
+    "validation",
+    "zero-dependencies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kein-chronicle/image-crop-bounds-clamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kein-chronicle/image-crop-bounds-clamp/issues"
+  },
+  "homepage": "https://github.com/Kein-chronicle/image-crop-bounds-clamp#readme"
+}
